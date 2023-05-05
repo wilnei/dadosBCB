@@ -1,0 +1,20 @@
+Package: dadosBCB
+Title: Download de Dados do Banco Central do Brasil
+Version: 0.0.0.9000
+Authors@R: 
+    person("Beatriz", "Milz", , "milz.bea@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-3064-4486"))
+Description: Pacote para fazer download de dados da API do Banco Central do Brasil.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    httr,
+    jsonlite,
+    tibble,
+    tidyr,
+    writexl
+URL: https://github.com/wilnei/dadosBCB
+BugReports: https://github.com/wilnei/dadosBCB/issues
